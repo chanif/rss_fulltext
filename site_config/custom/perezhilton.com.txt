@@ -1,3 +1,3 @@
 title: //h1
-body: //div[contains(concat(' ',normalize-space(@class),' '),'entry')]
+body: (//div[contains(concat(' ',normalize-space(@class),' '),' post ')]//div[contains(concat(' ',normalize-space(@class),' '),' entry ')])[1]
 test_url: http://www.ok.co.uk/mum-and-baby/sam-faiers-pregnancy-style-slams-kim-kardashian

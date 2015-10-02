@@ -655,7 +655,7 @@ $items = $feed->get_items(0, $max);
 $urls_sanitized = array();
 $urls = array();
 foreach ($items as $key => $item) {
-	$permalink = htmlspecialchars_decode($item->get_permalink());
+	$permalink = htmlspecialchars_decode(trim($item->get_permalink()));
 	// Colons in URL path segments get encoded by SimplePie, yet some sites expect them unencoded
 	$permalink = str_replace('%3A', ':', $permalink);
 	// validateUrl() strips non-ascii characters

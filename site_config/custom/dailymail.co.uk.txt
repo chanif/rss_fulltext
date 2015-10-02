@@ -7,6 +7,8 @@ strip_id_or_class: googleAds
 strip_id_or_class: digg-button
 strip_id_or_class: article-icon-links-container
 strip_id_or_class: clickToEnlarge
+strip_id_or_class: author-section byline-plain
+strip_id_or_class: byline-section
 strip_id_or_class: articleIconLinksContainer
 strip_id_or_class: related-carousel
 strip_id_or_class: reader-comments
